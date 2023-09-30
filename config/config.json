@@ -1,11 +1,13 @@
 {
   "development": {
-    "username": "root",
+    "username": "postgres",
     "password": "214047",
-    "database": "db_kampus",
-    "host": "localhost:5432",
-    "dialect": "postgres"
+    "database": "db-kampus",
+    "host": "localhost",
+    "dialect": "postgres",
+    "port": 5432
   },
+
   "test": {
     "username": "root",
     "password": null,
